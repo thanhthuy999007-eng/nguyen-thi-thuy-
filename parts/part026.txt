@@ -1,0 +1,20 @@
+</section>
+
+<section class="page" id="tong-ket">
+<h2 class="title">Tổng kết</h2>
+<p class="tag">Khó khăn, lợi ích và bài học rút ra 🎶</p>
+<div class="card c2"><h3>🌧️ 1. Khó khăn khi xây dựng Portfolio</h3><ul>
+<li>Ban đầu, tôi còn lúng túng trong việc chọn lọc nội dung và sắp xếp các phần sao cho ngắn gọn, rõ ràng.</li>
+<li>Tôi cần thêm thời gian để làm quen với thao tác định dạng, trình bày văn bản và tổ chức các thẻ bài tập.</li>
+<li>Một số thông tin tìm được trên Internet hoặc do AI gợi ý cần được kiểm tra, đối chiếu trước khi sử dụng.</li></ul></div>
+<div class="card c3"><h3>🌈 2. Lợi ích đạt được</h3><ul>
+<li>Giúp tôi hệ thống lại kiến thức và những kỹ năng quan trọng đã học trong môn Nhập môn Công nghệ số.</li>
+<li>Tôi chủ động hơn trong quản lý tài liệu, tìm kiếm thông tin, làm việc nhóm và trình bày sản phẩm học tập.</li>
+<li>Tôi hiểu thêm cách ứng dụng công nghệ và AI để hỗ trợ việc học, sáng tạo học liệu và chuẩn bị hoạt động dạy học âm nhạc.</li></ul></div>
+<div class="card c4"><h3>💡 3. Bài học kinh nghiệm</h3><ul>
+<li>Cần xác định mục tiêu rõ ràng trước khi lựa chọn và sử dụng công cụ công nghệ.</li>
+<li>Phải chủ động kiểm chứng thông tin, tôn trọng bản quyền và bảo vệ dữ liệu cá nhân khi tham gia môi trường số.</li>
+<li>AI chỉ là công cụ hỗ trợ; người học cần giữ vai trò chủ động, tự suy nghĩ, chọn lọc và chịu trách nhiệm với sản phẩm của mình.</li></ul></div>
+<div class="goal"><div style="font-size:22px;margin-bottom:6px">💌 Lời kết</div><span style="font-size:16px;font-family:var(--bd);font-weight:600">Kỹ năng số có vai trò thiết thực đối với sinh viên Sư phạm Âm nhạc. Tôi sẽ tiếp tục rèn luyện chuyên môn song song với phát triển năng lực số, hướng tới trở thành một giáo viên âm nhạc có trách nhiệm, linh hoạt và luôn đổi mới.</span></div>
+<div class="piano" id="piano"></div><div class="hint">🎹 Bấm vào phím đàn để nghe thử nhé!</div>
+</section>
