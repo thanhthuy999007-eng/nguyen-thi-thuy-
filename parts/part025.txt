@@ -1,0 +1,20 @@
+<div class="mini"><span class="ic">🤝</span><h3>Hợp tác trực tuyến</h3><p>Biết chia sẻ tài liệu, trao đổi và phối hợp thực hiện nhiệm vụ nhóm.</p></div>
+<div class="mini"><span class="ic">🤖</span><h3>Sử dụng AI tạo sinh</h3><p>Biết khai thác AI để tham khảo ý tưởng, hỗ trợ sáng tạo nội dung và học tập.</p></div>
+<div class="mini"><span class="ic">🛡️</span><h3>Công nghệ có trách nhiệm</h3><p>Có ý thức kiểm chứng thông tin, tôn trọng bản quyền và bảo vệ dữ liệu cá nhân.</p></div>
+</div>
+<div class="card" style="margin-top:18px"><h3 class="sec" style="margin-top:0">🌟 Mục tiêu xây dựng Portfolio</h3>
+<p>Portfolio giới thiệu bản thân, lưu lại các nội dung và sản phẩm học tập của môn Nhập môn Công nghệ số, đồng thời giúp tôi nhìn lại kiến thức, kỹ năng đã tiếp thu; từ đó tự đánh giá sự tiến bộ và định hướng vận dụng công nghệ vào việc giảng dạy âm nhạc trong tương lai.</p></div>
+</section>
+
+<section class="page" id="du-an">
+<h2 class="title">Dự án học tập</h2>
+<p class="tag">Sáu thẻ bài tập trong học phần Nhập môn Công nghệ số 🎼</p>
+<div class="grid">
+<div class="mini card proj"><span class="num">BÀI 1</span><h3>Thao tác cơ bản với tệp tin và thư mục</h3><span class="big">📁</span></div>
+<div class="mini card proj c2"><span class="num">BÀI 2</span><h3>Tìm kiếm và đánh giá thông tin học thuật</h3><span class="big">🔎</span></div>
+<div class="mini card proj c3"><span class="num">BÀI 3</span><h3>Viết Prompt hiệu quả cho các tác vụ học tập</h3><span class="big">💬</span></div>
+<div class="mini card proj c4"><span class="num">BÀI 4</span><h3>Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm</h3><span class="big">🤝</span></div>
+<div class="mini card proj"><span class="num">BÀI 5</span><h3>Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung</h3><span class="big">🎨</span></div>
+<div class="mini card proj c2"><span class="num">BÀI 6</span><h3>Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h3><span class="big">🛡️</span></div>
+</div>
+<p class="tag" style="margin-top:20px"><i>Mỗi thẻ bài tập là một nội dung thực hành góp phần hình thành và phát triển năng lực số của sinh viên.</i></p>
