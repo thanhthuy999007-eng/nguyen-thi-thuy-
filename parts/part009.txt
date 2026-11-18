@@ -1,0 +1,20 @@
+.chip{background:linear-gradient(135deg,#fff0e9,#e9f2ef);color:#78685e;border:1px solid white}
+.goal{background:linear-gradient(135deg,#eaa6a3,#b9a4d1 55%,#8eb9d5);box-shadow:0 10px 24px rgba(177,139,166,.22)}
+.sec{color:#827067}
+.num{background:linear-gradient(135deg,#e9a2a0,#91bdd0)}
+.op{background:linear-gradient(135deg,#e9a2a0,#a99acb)}
+.c2{border-top:7px solid #efb0a7}.c3{border-top:7px solid #9fc7d5}.c4{border-top:7px solid #c5b0d9}
+.ft{background:linear-gradient(145deg,rgba(246,199,185,.72),rgba(210,195,226,.7),rgba(190,218,219,.72));border-top:3px solid white}
+.ft-r{box-shadow:0 10px 25px rgba(171,139,115,.14)}
+.key{border-color:#d9c8bd;box-shadow:0 4px 0 #e8d9d0;height:64px;border-radius:0 0 11px 11px}
+.key:active,.key.p{background:linear-gradient(#ffe2df,#e1f1f2);box-shadow:0 1px 0 #e8d9d0}
+.piano{gap:2px;max-width:460px}
+.hint{color:#9a8174}
+.mc{filter:drop-shadow(0 4px 5px rgba(160,130,110,.17))}
+.walk{opacity:.82}
+.music-dock{
+ position:fixed;right:18px;bottom:18px;z-index:12;display:flex;align-items:center;gap:10px;
+ padding:9px 13px;border:2px solid white;border-radius:22px;
+ background:rgba(255,255,255,.88);backdrop-filter:blur(14px);
+ box-shadow:0 8px 25px rgba(143,117,104,.18);color:#76665d;
+}
