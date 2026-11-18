@@ -1,0 +1,20 @@
+.md h4{font-family:var(--hd);font-size:18px;margin:18px 0 4px;color:var(--ink)}
+.md h4:before{content:'🎵 '}
+.md table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+.md th,.md td{border:2px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.md th{background:linear-gradient(135deg,var(--pink),var(--blue));color:#fff}
+.tw2{overflow-x:auto}
+.md a{color:var(--pink);font-weight:800}
+.md{max-width:920px}.md img{width:100%;height:auto;display:block;margin:12px 0;border-radius:10px;border:2px solid var(--line);background:#fff;box-shadow:0 4px 14px rgba(120,90,190,.25)}.pn{text-align:center;color:var(--sub);font-weight:700;font-size:13px;margin:0}
+.ft{margin:44px -16px -70px;padding:36px 16px 20px;text-align:left;color:var(--ink);background:linear-gradient(160deg,rgba(255,143,189,.55),rgba(183,156,255,.55) 55%,rgba(124,195,255,.55));backdrop-filter:blur(8px);border-top:4px solid var(--line);border-radius:36px 36px 0 0;font-weight:400}
+.ft-in{max-width:980px;margin:0 auto;display:grid;grid-template-columns:1.25fr 1fr;gap:26px;align-items:start}
+@media (max-width:760px){.ft-in{grid-template-columns:1fr}}
+.ey2{font-size:12px;letter-spacing:.25em;font-weight:800;color:var(--sub)}
+.ft h3{font-size:clamp(22px,4.5vw,30px);margin:4px 0 16px}
+.ft label{display:block;font-weight:800;font-size:13px;margin-bottom:12px}
+.ft .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){.ft .row{grid-template-columns:1fr}}
+.ft input,.ft textarea{display:block;width:100%;margin-top:6px;padding:12px 14px;font:inherit;font-weight:600;color:var(--ink);background:var(--card);border:2px solid var(--line);border-radius:16px;outline:0;resize:vertical}
+.ft input:focus,.ft textarea:focus{border-color:var(--pink);box-shadow:0 0 0 4px rgba(255,143,189,.3)}
+.send{font-family:var(--hd);font-weight:800;font-size:17px;border:0;cursor:pointer;color:#fff;padding:12px 30px;border-radius:999px;background:linear-gradient(135deg,var(--pink),var(--lav));box-shadow:0 8px 18px rgba(183,156,255,.5);transition:.2s}
+.send:hover{transform:translateY(-3px) scale(1.04)}
