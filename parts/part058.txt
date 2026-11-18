@@ -1,0 +1,20 @@
+  musicCtx=musicCtx||new (window.AudioContext||window.webkitAudioContext)();
+  if(musicCtx.state==='suspended')musicCtx.resume();
+  var osc=musicCtx.createOscillator(),gain=musicCtx.createGain();
+  osc.type='sine';osc.frequency.setValueAtTime(freq,musicCtx.currentTime);
+  gain.gain.setValueAtTime(.0001,musicCtx.currentTime);
+  gain.gain.exponentialRampToValueAtTime(.055,musicCtx.currentTime+.035);
+  gain.gain.exponentialRampToValueAtTime(.0001,musicCtx.currentTime+.48);
+  osc.connect(gain);gain.connect(musicCtx.destination);
+  osc.start();osc.stop(musicCtx.currentTime+.5);
+ }catch(err){}
+}
+function musicTick(){playSoftNote(melody[musicStep%melody.length]);musicStep++}
+function setMusic(on){
+ musicOn=on;musicDock.classList.toggle('playing',on);
+ musicToggle.textContent=on?'♫':'♪';
+ musicToggle.setAttribute('aria-label',on?'Tắt nhạc nền':'Bật nhạc nền');
+ musicLabel.textContent=on?'Đang ngân nga…':'Giai điệu nhỏ';
+ if(on){musicTick();musicTimer=setInterval(musicTick,430)}
+ else if(musicTimer){clearInterval(musicTimer);musicTimer=null}
+}
