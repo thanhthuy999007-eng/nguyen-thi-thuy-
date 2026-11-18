@@ -1,0 +1,20 @@
+.music-dock{
+ background:rgba(255,255,255,.9);border:2px solid #fff;
+ box-shadow:0 9px 26px rgba(105,165,204,.22);color:#66839d;
+}
+.music-toggle{background:linear-gradient(135deg,#ff9fc9,#79c8f1);box-shadow:0 4px 12px rgba(123,181,216,.28)}
+.music-toggle:focus-visible{outline-color:#79c8f1}
+.equalizer i{background:#ff9fc9}
+.equalizer i:nth-child(2){background:#b8b5f4}
+.equalizer i:nth-child(3){background:#79c8f1}
+.equalizer i:nth-child(4){background:#ffbad8}
+.equalizer i:nth-child(5){background:#9bd8ed}
+.ft{
+ color:var(--ink);
+ background:linear-gradient(145deg,rgba(255,190,218,.78),rgba(190,211,250,.74) 52%,rgba(153,220,247,.78));
+ border-top:3px solid white;
+}
+.ft-r{box-shadow:0 10px 28px rgba(105,165,204,.17)}
+.ft input,.ft textarea{border-color:#fff;background:rgba(255,255,255,.86)}
+.ft input:focus,.ft textarea:focus{border-color:#ff9fc9;box-shadow:0 0 0 4px rgba(255,159,201,.24)}
+.send,.x{background:linear-gradient(120deg,#ff9fc9,#79c8f1);box-shadow:0 8px 18px rgba(120,180,220,.26)}
