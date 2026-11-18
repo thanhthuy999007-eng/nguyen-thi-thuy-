@@ -1,0 +1,10 @@
+  addMovingKitten('kitty-floater','-2.4s');
+  addMovingKitten('kitty-peeker','-3s');
+  document.body.appendChild(kittenLayer);
+}
+
+})();
+
+</script>
+</body>
+</html>
