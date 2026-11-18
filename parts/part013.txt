@@ -1,0 +1,20 @@
+.cloud:nth-of-type(2n){background:#fff2f8;opacity:.72}
+.cloud:nth-of-type(2n):before,.cloud:nth-of-type(2n):after{background:#fff2f8}
+.gh{opacity:.12;background-image:radial-gradient(rgba(255,255,255,.85) 1.2px,transparent 1.8px);background-size:26px 26px}
+header{padding-top:16px}
+nav{
+ background:rgba(255,255,255,.82);border:2px solid #fff;
+ box-shadow:0 9px 25px rgba(104,166,207,.2);backdrop-filter:blur(16px);
+}
+nav a{color:#7392ab}
+nav a.on{background:linear-gradient(120deg,#ff9fc9,#78c9f2);box-shadow:0 5px 14px rgba(120,190,226,.28)}
+.title{background:linear-gradient(90deg,#f18db9 0%,#9aafe9 48%,#55b7e8 100%);-webkit-background-clip:text;background-clip:text}
+.tag{color:#7798b2}
+.card,.mini{
+ background:rgba(255,255,255,.86);border:2px solid rgba(255,255,255,.98);
+ box-shadow:0 10px 28px rgba(103,163,205,.15);backdrop-filter:blur(14px);
+}
+.card{border-radius:29px}
+.mini{border-radius:24px}
+.mini:hover{box-shadow:0 15px 30px rgba(234,151,190,.2)}
+.avatar{
