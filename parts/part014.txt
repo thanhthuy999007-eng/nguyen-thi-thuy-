@@ -1,0 +1,20 @@
+ border:6px solid #fff;
+ box-shadow:0 0 0 5px #ffacd0,0 0 0 10px #8bd2f4,0 14px 30px rgba(104,164,203,.24);
+}
+.chip{background:linear-gradient(120deg,#ffe4f0,#dff4ff);color:#58758e;border:1px solid white}
+.goal{
+ background:linear-gradient(120deg,#f6a9ce 0%,#b8b8f2 52%,#80ccef 100%);
+ box-shadow:0 12px 26px rgba(135,174,219,.24);
+}
+.sec{color:#6887a0}
+.num{background:linear-gradient(120deg,#ff9fc9,#79c8f1)}
+.op{background:linear-gradient(120deg,#ff9fc9,#9aaeed)}
+.c2{border-top:7px solid #ffb1d2}.c3{border-top:7px solid #8bd2f4}.c4{border-top:7px solid #b8b5f4}
+li:before{color:#ed91bd}
+.key{border-color:#c8e5f5;box-shadow:0 4px 0 #dcecf6}
+.key:active,.key.p{background:linear-gradient(#ffe0ef,#d6f1ff);box-shadow:0 1px 0 #dcecf6}
+.hint{color:#7895ad}
+.mc{filter:drop-shadow(0 5px 7px rgba(112,163,199,.22))}
+.walk{opacity:.94}
+.tw{color:#fff;text-shadow:0 0 9px #ffacd0,0 0 15px #8bd2f4}
+.music-sticker{color:#78bfe8;text-shadow:0 3px 8px rgba(255,159,201,.45)}
