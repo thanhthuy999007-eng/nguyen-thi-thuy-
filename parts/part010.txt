@@ -1,0 +1,20 @@
+.music-toggle{
+ border:0;border-radius:50%;width:42px;height:42px;cursor:pointer;
+ background:linear-gradient(135deg,#f0aaa5,#9fc7d5);color:white;
+ font-size:18px;box-shadow:0 4px 10px rgba(170,130,120,.2)
+}
+.music-toggle:focus-visible{outline:3px solid #8eb9d5;outline-offset:3px}
+.music-label{font:800 12px var(--bd);white-space:nowrap}
+.equalizer{height:25px;display:flex;align-items:center;gap:3px}
+.equalizer i{display:block;width:3px;height:7px;border-radius:4px;background:#d99a9b;transform-origin:center;animation:eq .7s ease-in-out infinite alternate}
+.equalizer i:nth-child(2){animation-delay:.12s;background:#a8a0ca}
+.equalizer i:nth-child(3){animation-delay:.24s;background:#8eb9d5}
+.equalizer i:nth-child(4){animation-delay:.08s;background:#e5b58d}
+.equalizer i:nth-child(5){animation-delay:.2s;background:#a8c6a8}
+.music-dock:not(.playing) .equalizer i{animation-play-state:paused;height:4px}
+@keyframes eq{to{height:23px;transform:scaleY(.55)}}
+.music-sticker{
+ position:absolute;z-index:1;pointer-events:none;font-size:clamp(22px,3vw,34px);
+ filter:drop-shadow(0 3px 4px rgba(150,120,100,.13));animation:stickerFloat 4s ease-in-out infinite
+}
+@keyframes stickerFloat{50%{transform:translateY(-9px) rotate(8deg)}}
