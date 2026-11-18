@@ -1,0 +1,20 @@
+  linear-gradient(rgba(236,184,155,.16) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(236,184,155,.16) 1px,transparent 1px),
+  linear-gradient(145deg,#fff9eb 0%,#fff0e9 52%,#f1f7ee 100%);
+ background-size:28px 28px,28px 28px,cover;
+ background-attachment:fixed;
+}
+.sky{opacity:.52}
+.gh{opacity:.46;background-image:linear-gradient(rgba(230,171,142,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(230,171,142,.12) 1px,transparent 1px);background-size:28px 28px}
+header{padding-top:16px}
+nav{border:2px solid #fff;background:rgba(255,255,255,.82);box-shadow:0 7px 22px rgba(177,139,116,.14);backdrop-filter:blur(14px)}
+nav a{font-size:14px;color:#88766a}
+nav a.on{background:linear-gradient(135deg,#f3a8a8,#9ec6d9);box-shadow:0 4px 12px rgba(194,151,139,.25)}
+main{max-width:1040px}
+.title{background:linear-gradient(90deg,#d98f91,#b59bcf,#77a9c5);-webkit-background-clip:text;background-clip:text}
+.tag{letter-spacing:.02em;color:#9a8174}
+.card,.mini{border:2px solid rgba(255,255,255,.98);box-shadow:0 9px 25px rgba(171,139,115,.13);backdrop-filter:blur(12px)}
+.card{border-radius:26px}
+.mini{border-radius:22px;background:rgba(255,255,255,.86)}
+.mini:hover{box-shadow:0 14px 30px rgba(191,145,135,.2)}
+.avatar{border:6px solid white;box-shadow:0 0 0 4px #f2b3a9,0 0 0 9px #a9cbd8,0 12px 26px rgba(171,139,115,.22)}
