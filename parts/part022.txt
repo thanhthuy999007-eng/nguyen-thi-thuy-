@@ -1,0 +1,20 @@
+}
+@media(prefers-reduced-motion:reduce){
+  .kitty-motion,.kitty-motion img,.kitty-runner:after{animation:none!important}
+  .kitty-runner{display:none}
+}
+
+</style>
+</head>
+<body>
+<div class="sky" id="sky"></div>
+<div class="music-sticker" style="top:17%;left:2%">♫</div>
+<div class="music-sticker" style="top:56%;right:3%;animation-delay:-1.4s">✿</div>
+<div class="music-sticker" style="top:83%;left:4%;animation-delay:-2.1s">♪</div>
+<div class="music-dock" id="musicDock" aria-label="Điều khiển nhạc nền">
+ <button class="music-toggle" id="musicToggle" type="button" aria-label="Bật nhạc nền" title="Bật hoặc tắt nhạc nền">♫</button>
+ <span class="music-label" id="musicLabel">Giai điệu nhỏ</span>
+ <span class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+</div>
+<header><nav id="nav">
+<a href="#gioi-thieu" data-p="gioi-thieu">☁️ Giới thiệu</a>
