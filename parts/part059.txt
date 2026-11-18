@@ -1,0 +1,20 @@
+musicToggle.addEventListener('click',function(){setMusic(!musicOn)});
+
+// Reuse the exact supplied white-kitten artwork for three gentle motion effects.
+var kittenArtwork=document.querySelector('.cat-art img');
+if(kittenArtwork){
+  var kittenLayer=document.createElement('div');
+  kittenLayer.className='kitty-motion-layer';
+  kittenLayer.setAttribute('aria-hidden','true');
+  function addMovingKitten(className,delay){
+    var kitten=document.createElement('div');
+    kitten.className='kitty-motion '+className;
+    kitten.style.animationDelay=delay;
+    var picture=document.createElement('img');
+    picture.src=kittenArtwork.src;
+    picture.alt='';
+    picture.decoding='async';
+    kitten.appendChild(picture);
+    kittenLayer.appendChild(kitten);
+  }
+  addMovingKitten('kitty-runner','-8s');
